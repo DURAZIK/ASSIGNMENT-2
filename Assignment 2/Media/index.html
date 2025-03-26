@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media Page</title>
+        </head>
+        <body>
+            <h1>Media Page</h1>
+            <section>
+                <!--1.Internal navigation-->
+                <a href="../index.html">Home</a>
+            </section>
+            <title>About Me - Media Elements</title>
+            <p><strong>AltSchool ID:</strong> ALT/SOE/025/0383</p>
+            <h1>About Me</h1>
+        
+            <p>My name is ISAAC PELUMI ELIJAH, a student in AltSchool Africa currently studying Cloud Engineering. Below is my Image and a video </p>
+        <!-- Display an image -->
+        <picture>
+            <source srcset="./asset/image/my-image.jpg" media="(max-width: 600px)">
+            <source srcset="./asset/my-image.jpg" media="(max-width: 900px)">
+            <img src="./asset/image/my-image.jpg"A picture of me" width="600">
+        </picture>
+        <section>
+            <h2>My Introduction Video</h2>
+            <!-- Display a video with responsiveness for mobile, tablet, and laptop -->
+            <video controls width="25%" height="auto">
+                <source src="./asset/video/my-video.mp4" type="video/mp4">
+                <source src="./asset/video/my-video.webm" type="video/webm">
+                <source src="./asset/video/my-video.ogv" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+</body>
+</html>
